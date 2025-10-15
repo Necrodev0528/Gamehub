@@ -170,7 +170,6 @@
     flex-direction: column;
   }
   .para-1 {
-    border: 2px solid black;
     width: 100%;
   }
   /* .img-1 {
@@ -699,6 +698,16 @@ cards btn:hover{
       width: 100%;
       margin: auto;
     }
+  }
+  footer{
+    background: linear-gradient(90deg, #0C2B11, #939E17);
+    padding: 20px;
+  }
+  footer p{
+    color: #939E17;
+  }
+  body{
+    background: linear-gradient(90deg, #0C2B11, #939E17);
   }
     
   
