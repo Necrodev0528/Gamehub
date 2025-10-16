@@ -5,6 +5,12 @@
     list-style-type: none;
     text-decoration: none;
 }
+
+body{
+    background: linear-gradient(90deg, #0C2B11, #939E17);
+  }
+
+
   header{
     border: 2px solid red;
     background:#0C2B11;
@@ -583,11 +589,12 @@ cards btn:hover{
   form{
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     /* border: 2px thin #b48e8e; */
-    flex: 3;
+    /* flex: 3; */
     width: 90%;
     margin: auto; 
 
@@ -608,7 +615,7 @@ cards btn:hover{
   
   .container{
     background: linear-gradient(90deg, #0C2B11, #939E17);
-    padding: 40px 40px 0px 0px;
+    padding: 40px 0 0px 0px;
   }
   .container h1{
     color: #939E17;
@@ -626,20 +633,21 @@ cards btn:hover{
     align-items: center;
     width: 40%;
     margin: auto;
-    color: #0c2b22;
+    /* color: #0c2b22; */
+    color: #fff;
   
 
   }
   .btn .end{
-  color: #0c2b22;
+  /* color: #0c2b22; */
+  color: #fff;
   }
   .insta{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width:100%;
     margin: 100px auto;
-    padding-right: 500px;
     padding-top: 50px;
     gap: 2em;
   }
@@ -671,15 +679,19 @@ cards btn:hover{
       justify-content: s;
     }
   }
-  @media(max-width:723px){
-    .form input, form textarea{
-      width: 89%;
-      margin: auto;
+  @media(max-width:734px){
+    form input, form textarea{
+      width: 80%;
+      margin:20px  auto 0 auto;
+    }
+
+    .btn{
+      margin-top: 20px;
     }
   }
 
 
-  @media(max-width:686px){
+  /* @media(max-width:686px){
     .form input, form textarea{
       width: 100%;
       margin: auto;
@@ -689,34 +701,36 @@ cards btn:hover{
       margin: auto;
       margin-bottom: 20px;
     }
-  }
+  } */
   @media(max-width:643px){
-    form input, font textarea{
+    /* form input, font textarea{
       width: 100%;
       margin: auto;
       margin-top: 10px;
       margin-bottom: 20px
-    }
+    } */
     .btn{
       margin-bottom: 10px;
       margin-top: 20px;
     }
   }
-  @media(max-width:410px){
-    .form input, form textarea{
-      width: 100%;
-      margin: auto;
+  @media(max-width:490px){
+    form input, form textarea{
+      width: 90%;
+    }
+    .btn{
+      width: 90%;
     }
   }
   footer{
     background: linear-gradient(90deg, #0C2B11, #939E17);
-    padding: 20px;
+    padding: 20px 0;
   }
   footer p{
+    margin: 10px 0;
     color: #939E17;
+    font-size: .9em;
+    text-align: center;
   }
-  body{
-    background: linear-gradient(90deg, #0C2B11, #939E17);
-  }
-    
+  
   
