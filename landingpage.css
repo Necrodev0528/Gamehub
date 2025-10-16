@@ -164,7 +164,7 @@ body{
   animation: slideInCenter 2s cubic-bezier(0.77, 0, 0.175, 1) forwards, hover 2s 2s infinite;
 }
 .hero-section .first-text{
-  animation: bounce 5s cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
+  animation: bounce 4s cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
 }
 .image{
   padding-top: 5em;
